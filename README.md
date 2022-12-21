@@ -55,7 +55,7 @@ Alright! Enough chit-chat. Here it is.
 
 ---
 
-NOTE: ALL OF THIS SHOULD BE DEPLOYED ON A LOCAL CHAIN. YOU DON'T NEED TO USE REAL-WORLD ASSETS OR ETH FOR ANY OF THIS.
+NOTE: ALL OF THIS SHOULD BE DEPLOYED ON A LOCAL CHAIN. YOU SHOULD NOT USE REAL-WORLD ASSETS OR ETH FOR ANY OF THIS.
 
 **Step 1**: Define a solidity contract that performs some function on-chain. What the function does is entirely up to you. We're leaving this intentionally "vague" because it's not so important what you pick. For example you could pick any one of these: 
 
