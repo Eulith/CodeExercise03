@@ -66,12 +66,11 @@ NOTE: ALL OF THIS SHOULD BE DEPLOYED ON A LOCAL CHAIN. YOU DON'T NEED TO USE REA
 
 Note all of these functions are on-chain. These are written in your contract. Do whatever you want here; the specific action isn't that important.
 
-**Step 2**: Write a CLI that allows the user to:
+**Step 2**: Create a CLI that allows the user to:
 
 1. Deploy your contract TO A LOCAL CHAIN (again, not real ETH). 
-2. Take the action you built in Step 1
-3. Monitor the results of the action from Step 1
-4. Reset the contract to it a neutral state
+2. Monitor the results of the action from Step 1
+3. Reset the contract to a neutral state (the state before the action)
 
 **Step 3**: Write a Rust program that asynchronously monitors the contract in a non-blocking loop. Hint: you can either use OS threads or green threads
 in a runtime like Tokio. When the state of your contract satisfies a constraint, take an action (like printing the satisfied state) and close the program
@@ -93,9 +92,4 @@ We know it's a big time investment and really appreciate your willingness.
 
 
 ## FAQ
-**Q: Am I expected to code on Github or can I use an IDE?**
-
-A: We do not care, not even a little bit, whether or what IDE you use. 
-We're just looking at the code you submit. 
-Do this assessment like you would write any other code... 
-Just commit when you've done some work. It's not complicated.
+...
